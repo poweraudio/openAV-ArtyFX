@@ -1,3 +1,12 @@
+**PowerAudio fork of ArtyFX**
+
+This fork of ArtyFX currently has no changes. The following changes have since
+been merged upstream:
+
+* Fixed compilation errors due to syntax error.
+
+---
+
 ArtyFX OpenAV Productions
 =========================
 
