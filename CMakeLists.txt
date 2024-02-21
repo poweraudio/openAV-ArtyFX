@@ -35,7 +35,7 @@ SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -O1 -Wno-unused-variable -ftree
 FILE(GLOB sources src/dsp/*.cxx src/dsp/rr/*.cxx  src/dsp/eq/*.cc )
 
 IF(BUILD_SSE)
-  IF(NOT ${CMAKE_SYSTEM_PROCESSOR} MATCHES "arm")
+  IF(NOT ${CMAKE_SYSTEM_PROCESSOR} MATCHES "arm|ppc")
     SET(CMAKE_C_FLAGS   "${CMAKE_C_FLAGS} -msse2 -mfpmath=sse")
     SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -msse2 -mfpmath=sse")
   ENDIF()

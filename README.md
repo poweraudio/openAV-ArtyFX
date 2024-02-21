@@ -1,7 +1,10 @@
 **PowerAudio fork of ArtyFX**
 
-This fork of ArtyFX currently has no changes. The following changes have since
-been merged upstream:
+This fork of ArtyFX currently has the following changes:
+
+* Added support for IBM Power in CMake build files.
+
+The following changes have since been merged upstream:
 
 * Fixed compilation errors due to syntax error.
 
